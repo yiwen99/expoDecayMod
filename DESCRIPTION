@@ -4,8 +4,7 @@ Title: Exponential Decay model parameters estimation
 Version: 0.1.0
 Author: Yiwen Chen, Hanwen Zhang, Junyan Dong
 Maintainer: The package maintainer <cywww@umich.edu>, <hanwenzz@umich.edu>, <junyado@umich.edu>
-Description: The Exponential Decay model allows the influence of an event to exponentially decay over time which is different from the original Cox model. In survival analysis, it can be used to investigate the trend of a treatment’s hazard that increases right after the treatment and then decreases until reaching the baseline hazard, such as organ transplant surgery.
-This package is to estimate the parameters in the Exponential Decay model.
+Description: The Exponential Decay model allows the influence of an event to exponentially decay over time which is different from the original Cox model. In survival analysis, it can be used to investigate the trend of a treatment’s hazard that increases right after the treatment and then decreases until reaching the baseline hazard, such as organ transplant surgery. This package is to estimate the parameters in the Exponential Decay model.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
