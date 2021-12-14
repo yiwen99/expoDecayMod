@@ -20,6 +20,9 @@ the estimated parameters(beta, gamma)
 Find the estimated paramaters of the exponential decay model.
 }
 \examples{
-data(heart, package="survival")
-exp_decay_mod(c(-0.29295,0.001),sigma=heart$event, t=heart$stop, u=heart$start)
+library(survival)
+data(heart)
+fit1 <- coxph(Surv(start,stop,event)~(age + surgery)*transplant,data=heart, method = "efron")
+summary(fit1)
+exp_decay_mod(c(-0.29295,0.001),sigma=heart$event, t=heart$stop, u=heart$start)#initial value -0.29295 is obtained from fit1
 }
