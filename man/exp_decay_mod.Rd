@@ -25,4 +25,5 @@ data(heart)
 fit1 <- coxph(Surv(start,stop,event)~(age + surgery)*transplant,data=heart, method = "efron")
 summary(fit1)
 exp_decay_mod(c(-0.29295,0.001),sigma=heart$event, t=heart$stop, u=heart$start)#initial value -0.29295 is obtained from fit1
+# For large dataset, the analysis might not be able to run on local computers. Here is our example analysis supported by Google Collab Notebook: https://colab.research.google.com/drive/1r99N7ws5RECkjBDUt6chTz2cebkdvrtd#scrollTo=mEj1bfQpbSLI
 }
