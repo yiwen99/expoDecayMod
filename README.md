@@ -13,7 +13,10 @@ Install from GitHub, e.g., devtools::install_github("yiwen99/expoDecayMod")
 
 Load the matrix package from the GUI or with the command library.
 
-Type library(help="expoDecayMod") in R console to list the functions and data sets for the package. For more information on any of these, use ?exp_decay_mod. Use the example(function_name) for illustrations of usage.
+Type library(help="expoDecayMod") in R console to list the functions and data sets for the package. 
+
+For large dataset, the analysis might not be able to run on local computers. Here is our example analysis supported by Google Collab Notebook:
+https://colab.research.google.com/drive/1r99N7ws5RECkjBDUt6chTz2cebkdvrtd#scrollTo=mEj1bfQpbSLI
 
 ## Reference
 Keown-Stoneman, C., Horrocks, J., & Darlington, G. (2018). Exponential decay for binary time-varying covariates in Cox models. Statistics in medicine, 37(5), 776–788. 
