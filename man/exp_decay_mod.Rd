@@ -5,7 +5,7 @@
 exp_decay_mod(params_ini, sigma, t, u)
 }
 \arguments{
-\item{params_ini}{Initial values for the parameters to be estimated.}
+\item{params_ini}{initial values for the parameters to be estimated.}
 
 \item{sigma}{a binary vector taking value 0 and 1 to show whether t is an event time or censor time}
 
